@@ -1,6 +1,6 @@
 
 
 vlib work
-vlog -sv 10_Inline_Soft_constraints.sv
-vsim -voptargs=+acc work.top_inline_soft
+vlog -sv demo_run.sv
+vsim -voptargs=+acc work.test
 run -all
